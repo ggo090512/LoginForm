@@ -29,20 +29,20 @@ namespace Login
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.lbUser = new System.Windows.Forms.Label();
             this.lbMatkau = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.textbotmatkhau = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtUsername
+            // textboxusername
             // 
-            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(246, 85);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(228, 29);
-            this.txtUsername.TabIndex = 0;
+            this.textboxusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textboxusername.Location = new System.Drawing.Point(246, 85);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(228, 29);
+            this.textboxusername.TabIndex = 0;
             // 
             // lbUser
             // 
@@ -65,14 +65,14 @@ namespace Login
             this.lbMatkau.Text = "Password";
             this.lbMatkau.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtPassword
+            // textbotmatkhau
             // 
-            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(246, 169);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(228, 29);
-            this.txtPassword.TabIndex = 2;
-            this.txtPassword.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textbotmatkhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbotmatkhau.Location = new System.Drawing.Point(246, 169);
+            this.textbotmatkhau.Name = "textbotmatkhau";
+            this.textbotmatkhau.Size = new System.Drawing.Size(228, 29);
+            this.textbotmatkhau.TabIndex = 2;
+            this.textbotmatkhau.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnLogin
             // 
@@ -90,9 +90,9 @@ namespace Login
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lbMatkau);
-            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.textbotmatkhau);
             this.Controls.Add(this.lbUser);
-            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.textboxusername);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -102,10 +102,10 @@ namespace Login
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label lbUser;
         private System.Windows.Forms.Label lbMatkau;
-        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox textbotmatkhau;
         private System.Windows.Forms.Button btnLogin;
     }
 }
