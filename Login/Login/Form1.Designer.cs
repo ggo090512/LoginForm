@@ -48,21 +48,22 @@ namespace Login
             // 
             this.lbUser.AutoSize = true;
             this.lbUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUser.Location = new System.Drawing.Point(130, 90);
+            this.lbUser.Location = new System.Drawing.Point(94, 89);
             this.lbUser.Name = "lbUser";
-            this.lbUser.Size = new System.Drawing.Size(100, 24);
+            this.lbUser.Size = new System.Drawing.Size(145, 24);
             this.lbUser.TabIndex = 1;
-            this.lbUser.Text = "UserName";
+            this.lbUser.Text = "Tên Đăng Nhập";
+            this.lbUser.Click += new System.EventHandler(this.lbUser_Click);
             // 
             // lbMatkau
             // 
             this.lbMatkau.AutoSize = true;
             this.lbMatkau.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMatkau.Location = new System.Drawing.Point(130, 174);
+            this.lbMatkau.Location = new System.Drawing.Point(147, 173);
             this.lbMatkau.Name = "lbMatkau";
-            this.lbMatkau.Size = new System.Drawing.Size(92, 24);
+            this.lbMatkau.Size = new System.Drawing.Size(89, 24);
             this.lbMatkau.TabIndex = 3;
-            this.lbMatkau.Text = "Password";
+            this.lbMatkau.Text = "Mật Khẩu";
             this.lbMatkau.Click += new System.EventHandler(this.label1_Click);
             // 
             // textbotmatkhau
@@ -80,7 +81,7 @@ namespace Login
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(129, 41);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
