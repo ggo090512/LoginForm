@@ -26,5 +26,10 @@ namespace Login
         {
 
         }
+
+        private void lbUser_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
