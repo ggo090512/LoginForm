@@ -31,5 +31,15 @@ namespace Login
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user = textboxusername.Text;
+            string pass = textbotmatkhau.Text;
+            if (user == "admin" && pass == "admin")
+            {
+                MessageBox.Show("Success");
+            }
+        }
     }
 }
